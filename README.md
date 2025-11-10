@@ -1,4 +1,4 @@
-# Task 1 — Basic Network Scanning with Nmap
+# Task 1  Basic Network Scanning with Nmap
 
 **Intern:** Mohammed Altaf Hussain  
 **Internship:** AICTE Oasis Infobyte - Security Analyst Intern  
@@ -9,7 +9,7 @@
 sudo nmap -sS -sV -O -p- -T4 --min-rate=300 -oN nmap_scan_results.txt TARGET
 
 ## Findings (summary)
-- Open ports found: 135, 139, 445, 808, 912, 2179, 2869, 3306, 5040, 5357, 33060, 49664�,49668, 49674, 51557
+- Open ports found: 135, 139, 445, 808, 912, 2179, 2869, 3306, 5040, 5357, 33060, 49664â,49668, 49674, 51557
 - Services and versions:
   - 135: Microsoft Windows RPC
   - 139: Microsoft Windows netbios-ssn
