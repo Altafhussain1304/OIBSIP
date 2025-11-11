@@ -1,1 +1,0 @@
-sudo nmap -sS -sV -O -p- -T4 --min-rate=300 -oN nmap_scan_results.txt 192.168.0.106
