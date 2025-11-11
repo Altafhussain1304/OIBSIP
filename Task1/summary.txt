@@ -1,0 +1,4 @@
+Task: Basic Nmap scan
+Target: 192.168.0.106
+Command used: sudo nmap -sS -sV -O -p- -T4 --min-rate=300 -oN nmap_scan_results.txt 192.168.0.106
+Main findings: Host is up. 19 open ports found including 135 (msrpc), 139 (netbios-ssn), 445 (SMB), 3306 (MySQL), and 5357 (HTTP). OS likely Windows XP/7/2012.
