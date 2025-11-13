@@ -1,7 +1,7 @@
 # OIBSIP — AICTE Oasis Infobyte Security Analyst Internship (Nov–Dec 2025)
 
 👨‍💻 **Intern:** Mohammed Altaf Hussain  
-🏫 **College:** Muffakham Jah College of Engineering and Technology (B.E. IT, 3rd Year)  
+🏫 **College:** Muffakham Jah College of Engineering and Technology (B.E. IT, 4th Year)  
 🛡️ **Role:** Security Analyst Intern  
 📅 **Internship Duration:** November 2025 – December 2025  
 
