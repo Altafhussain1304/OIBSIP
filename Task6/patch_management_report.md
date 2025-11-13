@@ -1,168 +1,92 @@
-Task 6 — Research Report: Why Patch Management Matters
+# Task 6 — Research Report: Why Patch Management Matters
 
 
+## 1. Introduction  
+Patch management is the process of keeping software and systems updated by applying patches — small updates that fix bugs, close security loopholes, and improve performance. In cybersecurity, patching is one of the most effective ways to reduce risk and maintain system integrity.
 
+---
 
+## 2. What Does Patch Management Involve?  
+A proper patch management strategy includes:
+- Scanning systems for available updates  
+- Testing patches before deployment  
+- Applying patches consistently across devices  
+- Removing outdated or unsupported software  
+- Tracking patch status and compliance  
 
-1\. Introduction
+Patches may contain:
+- Security fixes  
+- Bug resolutions  
+- Feature enhancements  
+- Performance improvements
 
-Patch management is all about keeping software and systems up to date. It means regularly checking for updates (called “patches”), testing them, and applying them to fix bugs, close security gaps, and improve performance. In cybersecurity, patching is one of the most important habits to stay protected.
+---
 
+## 3. Why Patch Management Is Critical
 
+### 3.1 Prevents Exploitation of Known Vulnerabilities  
+Attackers often target systems with known flaws. Applying patches blocks these entry points.
 
-2\. What Does Patch Management Involve?
+### 3.2 Reduces Malware and Ransomware Risk  
+Outdated systems are prime targets for ransomware. Regular patching helps prevent infections.
 
-It’s more than just clicking “Update.” A proper patch management process includes:
+### 3.3 Improves System Reliability  
+Patches resolve bugs that cause crashes, slowdowns, or erratic behavior.
 
+### 3.4 Supports Compliance  
+Security standards like ISO, GDPR, and PCI-DSS require timely patching to meet audit requirements.
 
+---
 
-Scanning for updates across all systems
+## 4. Risks of Ignoring Patches
 
+### 4.1 Real-World Breaches  
+- **WannaCry (2017):** Exploited an unpatched Windows vulnerability, affecting over 200,000 systems.  
+- **Equifax (2017):** Attackers used an old Apache Struts flaw to steal data from 147 million users.
 
+### 4.2 Business Impact  
+- Data loss and financial damage  
+- Ransomware infections  
+- Unauthorized access  
+- Legal penalties  
+- Reputation damage  
+- Operational downtime
 
-Installing patches safely and consistently
+---
 
+## 5. Best Practices for Patch Management
 
+### 5.1 Maintain an Asset Inventory  
+Know what systems and software are in use to ensure complete coverage.
 
-Removing outdated or risky software
+### 5.2 Prioritize High-Risk Patches  
+Focus on vulnerabilities with high CVSS scores, especially those allowing remote access.
 
+### 5.3 Test Before Deployment  
+Use a staging environment to avoid compatibility issues.
 
+### 5.4 Automate Where Possible  
+Tools like WSUS, SCCM, ManageEngine, and SolarWinds help automate patching across networks.
 
-Tracking which systems are patched and which aren’t
+### 5.5 Follow a Regular Schedule  
+Establish monthly patch cycles and be ready for emergency updates.
 
+### 5.6 Monitor and Verify  
+Use scanning tools to confirm patches are applied and detect missing updates.
 
+### 5.7 Retire Unsupported Systems  
+Remove or isolate legacy systems like Windows XP to reduce exposure.
 
-Patches can include:
+---
 
+## 6. Summary  
+Unpatched systems are easy targets for attackers. A strong patch management process helps prevent breaches, ensures system stability, and supports compliance.
 
+---
 
-Security fixes to block known vulnerabilities
+## 7. Conclusion  
+Patch management is a foundational cybersecurity practice. Organizations that prioritize patching are better equipped to defend against modern threats and maintain operational resilience.
 
+---
 
-
-Bug fixes to improve stability
-
-
-
-New features or performance upgrades
-
-
-
-3\. Why Is Patch Management So Important?
-
-3.1 Stops Hackers from Exploiting Known Flaws
-
-Most cyberattacks target systems that haven’t been patched. If a vulnerability is public and unpatched, attackers can easily use it to break in.
-
-
-
-3.2 Blocks Malware and Ransomware
-
-Many ransomware attacks (like WannaCry) hit systems running outdated software. Keeping everything updated makes it much harder for malware to spread.
-
-
-
-3.3 Keeps Systems Running Smoothly
-
-Patches fix bugs that cause crashes, slowdowns, or weird behavior — making systems more reliable.
-
-
-
-3.4 Helps Meet Legal and Industry Standards
-
-Regulations like GDPR, PCI-DSS, and ISO require organizations to keep systems secure — and patching is a key part of that.
-
-
-
-4\. What Happens If You Don’t Patch?
-
-4.1 Famous Breaches
-
-WannaCry (2017): Hit over 200,000 computers using a known Windows flaw that hadn’t been patched.
-
-
-
-Equifax (2017): Hackers exploited an old Apache Struts vulnerability, leaking data of 147 million people.
-
-
-
-4.2 Business Risks
-
-Data theft and financial loss
-
-
-
-Ransomware infections
-
-
-
-Unauthorized access
-
-
-
-Reputation damage
-
-
-
-Legal trouble and fines
-
-
-
-Downtime and disruption
-
-
-
-5\. How to Do Patch Management Right
-
-5.1 Know What You Have
-
-Keep an inventory of all devices and software so nothing gets missed.
-
-
-
-5.2 Patch the Most Critical Issues First
-
-Focus on vulnerabilities with high CVSS scores (8–10), especially those that allow remote access or privilege escalation.
-
-
-
-5.3 Test Before You Deploy
-
-Try patches in a test environment first to avoid breaking anything.
-
-
-
-5.4 Use Automation Tools
-
-Tools like WSUS, SCCM, ManageEngine, and SolarWinds can automate patching across your network.
-
-
-
-5.5 Stick to a Schedule
-
-Set a regular patching routine (e.g., every second Tuesday of the month) and be ready for emergency updates.
-
-
-
-5.6 Track and Verify
-
-Use scanning tools to confirm patches are applied and detect any missing updates.
-
-
-
-5.7 Retire Old Software
-
-Unsupported systems (like Windows XP) should be removed or isolated to reduce risk.
-
-
-
-6\. Summary
-
-Leaving systems unpatched is like leaving the door unlocked. Attackers look for these gaps. Patch management helps close them, keeping systems secure, stable, and compliant.
-
-
-
-7\. Conclusion
-
-Patch management isn’t just a technical task — it’s a core part of cybersecurity strategy. Organizations that take patching seriously are much better protected against modern threats.
-
+**End of Report**
